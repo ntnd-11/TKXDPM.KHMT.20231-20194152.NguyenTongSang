@@ -1,0 +1,28 @@
++ Phân Vùng Tương Đương:
+Tạo Đơn Hàng:
+Phân vùng 1: Tạo đơn hàng thành công với thông tin hợp lệ.
+Phân vùng 2: Tạo đơn hàng không có sản phẩm trong giỏ hàng.
+Phân vùng 3: Tạo đơn hàng với sản phẩm có số lượng vượt quá tồn kho.
+Phân vùng 4: Tạo đơn hàng với sản phẩm hỗ trợ giao hàng nhanh.
+Thanh Toán Đơn Hàng:
+Phân vùng 5: Thanh toán đơn hàng thành công với phương thức thanh toán hợp lệ.
+Phân vùng 6: Thanh toán đơn hàng với phương thức thanh toán không hợp lệ.
+
++ Phân Tích Giá Trị Biên:
+Tạo Đơn Hàng:
+
+Kiểm tra giới hạn dưới và trên với số lượng sản phẩm trong giỏ hàng.
+Kiểm tra giới hạn dưới và trên với thông tin giao hàng.
+Thanh Toán Đơn Hàng:
+
+Kiểm tra giới hạn dưới và trên với số lượng sản phẩm trong giỏ hàng khi thanh toán.
+Kiểm tra giới hạn dưới và trên với phí giao hàng khi thanh toán.
+
++ Bảng Quyết Định:
+Tạo Đơn Hàng:
+
+Bảng quyết định cho việc kiểm tra xem số lượng sản phẩm trong giỏ hàng có đủ tồn kho hay không.
+Bảng quyết định cho việc kiểm tra xem sản phẩm có hỗ trợ giao hàng nhanh hay không.
+Thanh Toán Đơn Hàng:
+
+Bảng quyết định cho việc kiểm tra xem phương thức thanh toán có hợp lệ hay không.
